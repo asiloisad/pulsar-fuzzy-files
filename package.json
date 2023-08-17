@@ -25,6 +25,12 @@
       }
     }
   },
+  "activationCommands": {
+    "atom-workspace": [
+      "fuzzy-files:toggle",
+      "fuzzy-files:update"
+    ]
+  },
   "dependencies": {
     "atom-select-list": "^0.8.1",
     "diacritic": "0.0.2",
