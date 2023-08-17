@@ -1,0 +1,38 @@
+{
+  "name": "fuzzy-files",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bacadra/atom-fuzzy-files",
+  "url": "https://github.com/bacadra/atom-fuzzy-files",
+  "repository": "https://github.com/bacadra/atom-fuzzy-files",
+  "license": "MIT",
+  "consumedServices": {
+    "file-icons.element-icons": {
+      "versions": {
+        "1.0.0": "consumeElementIcons"
+      }
+    },
+    "atom.file-icons": {
+      "versions": {
+        "1.0.0": "consumeClassIcons"
+      }
+    }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "4.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-select-list": "^0.8.1",
+    "diacritic": "0.0.2",
+    "etch": "^0.14.1",
+    "fs": "0.0.1-security",
+    "glob": "^7.2.0",
+    "minimatch": "^5.0.1",
+    "path": "^0.12.7",
+    "zadeh": "^3.0.0-beta.4"
+  }
+}

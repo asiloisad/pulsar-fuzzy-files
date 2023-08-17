@@ -1,0 +1,44 @@
+@import "ui-variables";
+
+.fuzzy-files > span {
+  color: @text-color-subtle;
+  cursor: context-menu;
+}
+
+.fuzzy-files .empty-message {
+  color: @text-color-error;
+  margin-top: 10px;
+}
+
+.fuzzy-files .error-message {
+  color: @text-color-error;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.fuzzy-files .icon {
+  display: block !important;
+}
+
+.fuzzy-files .primary-line .tag {
+  color: @syntax-color-constant;
+  margin-right: 5px;
+  border: solid 1px;
+  padding: .2em .4em;
+  border-radius: 4px;
+  vertical-align: baseline;
+}
+
+.fuzzy-files .loading-message {
+  display: flex;
+}
+
+.fuzzy-files .loading-spinner-tiny {
+  margin-left: 8px;
+}
+
+.fuzzy-files .keystroke {
+  border: solid 1px;
+  padding: .2em .4em;
+  border-radius: 4px;
+}
