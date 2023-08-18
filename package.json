@@ -1,7 +1,7 @@
 {
   "name": "fuzzy-files",
   "main": "./lib/main",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/bacadra/atom-fuzzy-files",
   "url": "https://github.com/bacadra/atom-fuzzy-files",
   "repository": "https://github.com/bacadra/atom-fuzzy-files",
