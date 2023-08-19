@@ -2,10 +2,13 @@
   "name": "fuzzy-files",
   "main": "./lib/main",
   "version": "0.0.3",
-  "homepage": "https://github.com/bacadra/atom-fuzzy-files",
-  "url": "https://github.com/bacadra/atom-fuzzy-files",
-  "repository": "https://github.com/bacadra/atom-fuzzy-files",
+  "homepage": "https://github.com/bacadra/pulsar-fuzzy-files",
+  "url": "https://github.com/bacadra/pulsar-fuzzy-files",
+  "repository": "https://github.com/bacadra/pulsar-fuzzy-files",
   "license": "MIT",
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },  
   "consumedServices": {
     "file-icons.element-icons": {
       "versions": {
