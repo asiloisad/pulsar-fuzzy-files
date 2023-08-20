@@ -1,7 +1,7 @@
 {
   "name": "fuzzy-files",
   "main": "./lib/main",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Quickly find a file or directory",
   "homepage": "https://github.com/bacadra/pulsar-fuzzy-files",
   "url": "https://github.com/bacadra/pulsar-fuzzy-files",
