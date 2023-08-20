@@ -29,8 +29,7 @@ Alternatively, run `ppm install bacadra/pulsar-fuzzy-files` to install a package
 
 In the `atom-workspace` space, the following commands are available:
 
-* `fuzzy-files:paths-toggle`: (default `Ctrl-P`) opens the path list.
-* `fuzzy-files:paths-cache`: manually caches a file.
+* `fuzzy-files:toggle`: (default `Ctrl-P`) opens the path list.
 
 In the `path-list` view, the following keymap is available:
 
