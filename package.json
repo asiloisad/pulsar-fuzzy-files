@@ -26,7 +26,8 @@
   },
   "activationCommands": {
     "atom-workspace": [
-      "fuzzy-files:toggle"
+      "fuzzy-files:toggle",
+      "fuzzy-finder:toggle-file-finder"
     ]
   },
   "dependencies": {

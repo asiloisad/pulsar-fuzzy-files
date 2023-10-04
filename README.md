@@ -15,9 +15,9 @@
   </a>
 </p>
 
-![path-list](https://github.com/bacadra/pulsar-fuzzy-files/raw/master/assets/path-list.png)
+![fuzzy-files](https://github.com/bacadra/pulsar-fuzzy-files/raw/master/assets/fuzzy-files.png)
 
-The Path list is a window for navigating through files in open projects. It allows you to open a file inside the Pulsar editor, externally, and insert a file path in various formats.
+The Path list is a window for navigating through files in open projects. It allows you to open a file inside the Pulsar editor, open externally or insert a file path in various formats.
 
 ## Installation
 
@@ -29,7 +29,7 @@ Alternatively, run `ppm install bacadra/pulsar-fuzzy-files` to install a package
 
 In the `atom-workspace` space, the following commands are available:
 
-* `fuzzy-files:toggle`: (default `Ctrl-P`) opens the path list.
+* `fuzzy-files:toggle` or `fuzzy-finder:toggle-file-finder`: (default `Ctrl-P`) opens the path list.
 
 In the `path-list` view, the following keymap is available:
 
@@ -49,9 +49,10 @@ In the `path-list` view, the following keymap is available:
 * `Alt-C Alt-A`: copies the absolute path of the selected file.
 * `Alt-C Alt-R` or `Alt-C`: copies the relative path of the selected file to the opened file.
 * `Alt-C Alt-N`: copies the name of the selected file.
+* `Alt-D`: move file to trash.
 * `Alt-0`: changes the separator in the insert to the system default (does not hide the view).
-* `Alt-\`: changes the separator in the insert to `\` (does not hide the view).
 * `Alt-/`: changes the separator in the insert to `/` (does not hide the view).
+* `Alt-\`: changes the separator in the insert to `\` (does not hide the view).
 * `Alt-Q`: changes the query to the project file path of the selected item (does not hide the view).
 * `Alt-S`: changes the query to the selection (does not hide the view).
 
@@ -61,7 +62,7 @@ In the `path-list` view, the following keymap is available:
 
 This package provides file path hinting options for the Autocomplete package. The paths are displayed relative to the currently active text editor, and the tooltip shows the full file path in the description. This package relies on the cache, which can be built manually or by using the Path List view. To use this feature, type `///` followed by the text you want to filter.
 
-This functionality can be enabled or disabled in the package settings. To use this feature, the paths must already be cached.
+This functionality can be enabled or disabled in the package settings. To use this feature, the paths must be already cached.
 
 ## Configuration
 

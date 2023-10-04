@@ -20,7 +20,7 @@
   'alt-c'       : 'fuzzy-files:copy-r'
   'alt-c alt-r' : 'fuzzy-files:copy-r'
   'alt-c alt-n' : 'fuzzy-files:copy-n'
-  'alt-d'       : 'fuzzy-files:delete'
+  'alt-d'       : 'fuzzy-files:trash'
   'alt-0'       : 'fuzzy-files:default-slash'
   'alt-/'       : 'fuzzy-files:forward-slash'
   'alt-\\'      : 'fuzzy-files:backslash'
