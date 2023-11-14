@@ -17,7 +17,7 @@
 
 ![fuzzy-files](https://github.com/bacadra/pulsar-fuzzy-files/raw/master/assets/fuzzy-files.png)
 
-The Path list is a window for navigating through files in open projects. It allows you to open a file inside the Pulsar editor, open externally or insert a file path in various formats.
+The Path list is a window for navigating through files in open projects. It allows you to open a file inside the Pulsar editor, open externally or insert a file path in various formats. The package is designed as replacement of built-in `fuzzy-finder`.
 
 ## Installation
 
