@@ -21,9 +21,7 @@ The Path list is a window for navigating through files in open projects. It allo
 
 ## Installation
 
-To install `fuzzy-files` search for [fuzzy-files](https://web.pulsar-edit.dev/packages/fuzzy-files) in the Install pane of the Pulsar settings or run `ppm install fuzzy-files`.
-
-Alternatively, you can run `ppm install bacadra/pulsar-fuzzy-files` to install a package directly from the Github repository.
+To install `fuzzy-files` search for [fuzzy-files](https://web.pulsar-edit.dev/packages/fuzzy-files) in the Install pane of the Pulsar settings or run `ppm install fuzzy-files`. Alternatively, you can run `ppm install bacadra/pulsar-fuzzy-files` to install a package directly from the Github repository.
 
 ## List view
 
