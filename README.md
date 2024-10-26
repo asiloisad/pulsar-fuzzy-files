@@ -1,6 +1,6 @@
 # fuzzy-files
 
-Quickly find and take an action over file. Multiple commands available for entry. The package is designed as replacement of `fuzzy-finder`.
+Quickly find and take an action over project files. Multiple commands available for entry. The package is designed as replacement of `fuzzy-finder`.
 
 ![fuzzy-files](https://github.com/bacadra/pulsar-fuzzy-files/raw/master/assets/fuzzy-files.png)
 
