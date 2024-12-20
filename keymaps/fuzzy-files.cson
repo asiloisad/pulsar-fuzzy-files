@@ -26,3 +26,4 @@
   'alt-\\'      : 'fuzzy-files:backslash'
   'alt-q'       : 'fuzzy-files:query-item'
   'alt-s'       : 'fuzzy-files:query-selection'
+  'f5'          : 'fuzzy-files:update'
