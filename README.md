@@ -41,7 +41,7 @@ In `path-list` there are available shortcuts:
 - `Alt-Q`: changes the query to the project file path of the selected item (does not hide the view)
 - `Alt-S`: changes the query to the selection (does not hide the view)
 - `F5`: manually update file list
-- RightClick: select item
+- `RightClick`: select item
 
 ## Autocomplete
 
