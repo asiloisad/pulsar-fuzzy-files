@@ -1,14 +1,17 @@
 {
   "name": "fuzzy-files",
-  "main": "./lib/main",
-  "version": "1.4.1",
   "description": "Quickly find and take an action over project files",
-  "homepage": "https://github.com/bacadra/pulsar-fuzzy-files",
-  "url": "https://github.com/bacadra/pulsar-fuzzy-files",
   "repository": "https://github.com/bacadra/pulsar-fuzzy-files",
+  "version": "1.4.1",
   "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
+  },
+  "main": "./lib/main",
+  "activationCommands": {
+    "atom-workspace": [
+      "fuzzy-files:toggle"
+    ]
   },
   "consumedServices": {
     "atom.file-icons": {
@@ -23,11 +26,6 @@
         "4.0.0": "getProvider"
       }
     }
-  },
-  "activationCommands": {
-    "atom-workspace": [
-      "fuzzy-files:toggle"
-    ]
   },
   "dependencies": {
     "atom-select-list": "^0.8.1",
