@@ -2,11 +2,11 @@
 
 Quickly find and take an action over project files. Multiple commands available for entry. The package is designed as replacement of `fuzzy-finder`.
 
-![fuzzy-files](https://github.com/bacadra/pulsar-fuzzy-files/raw/master/assets/fuzzy-files.png)
+![fuzzy-files](https://github.com/asiloisad/pulsar-fuzzy-files/raw/master/assets/fuzzy-files.png)
 
 ## Installation
 
-To install `fuzzy-files` search for [fuzzy-files](https://web.pulsar-edit.dev/packages/fuzzy-files) in the Install pane of the Pulsar settings or run `ppm install fuzzy-files`. Alternatively, you can run `ppm install bacadra/pulsar-fuzzy-files` to install a package directly from the Github repository.
+To install `fuzzy-files` search for [fuzzy-files](https://web.pulsar-edit.dev/packages/fuzzy-files) in the Install pane of the Pulsar settings or run `ppm install fuzzy-files`. Alternatively, you can run `ppm install asiloisad/pulsar-fuzzy-files` to install a package directly from the Github repository.
 
 ## Commands
 
@@ -47,7 +47,7 @@ In `path-list` there are available shortcuts:
 
 A package provides file path hinting options for the Autocomplete package. The paths are displayed relative to the currently active text editor, and the tooltip shows the full file path in the description. This package relies on the cache, which can be built manually or by using the Path List view. To use this feature, type `///` followed by the text you want to filter. This functionality can be toggled in the package settings. To use this feature, the paths must be already cached.
 
-![autocomplete](https://github.com/bacadra/pulsar-fuzzy-files/raw/master/assets/autocomplete.png)
+![autocomplete](https://github.com/asiloisad/pulsar-fuzzy-files/raw/master/assets/autocomplete.png)
 
 ## Configuration
 

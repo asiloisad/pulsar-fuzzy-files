@@ -1,7 +1,7 @@
 {
   "name": "fuzzy-files",
   "description": "Quickly find and take an action over project files",
-  "repository": "https://github.com/bacadra/pulsar-fuzzy-files",
+  "repository": "https://github.com/asiloisad/pulsar-fuzzy-files",
   "version": "1.4.1",
   "license": "MIT",
   "engines": {
