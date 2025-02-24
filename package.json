@@ -33,5 +33,43 @@
     "etch": "^0.14.1",
     "glob": "^10.3.3",
     "minimatch": "^5.0.1"
+  },
+  "configSchema": {
+    "ignoredNames": {
+      "order": 1,
+      "title": "List of ignore glob patterns",
+      "description": "Files and directories matching these patterns are ignored. This list is merged with the list defined by the core `Ignored Names' configuration setting.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "insertSep": {
+      "order": 2,
+      "title": "Type of separator in file paths",
+      "description": "Type of separator for the file path when copying or pasting.",
+      "type": "integer",
+      "enum": [
+        { "value": 0, "description": "Default" },
+        { "value": 1, "description": "Forward Slash" },
+        { "value": 2, "description": "Backslash" }
+      ],
+      "default": 0
+    },
+    "autocompletePath": {
+      "order": 3,
+      "title": "Enable path autocomplete",
+      "description": "Enable autocomplete paths in the text editor. To call the hint type `///`.",
+      "type": "boolean",
+      "default": true
+    },
+    "showKeystrokes": {
+      "order": 4,
+      "title": "Enable keystroke hints",
+      "description": "Show info message with keystroke in lists.",
+      "type": "boolean",
+      "default": true
+    }
   }
 }
