@@ -2,7 +2,7 @@
   "name": "fuzzy-files",
   "description": "Quickly find and take an action over project files",
   "repository": "https://github.com/asiloisad/pulsar-fuzzy-files",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
@@ -51,9 +51,18 @@
       "description": "Type of separator for the file path when copying or pasting.",
       "type": "integer",
       "enum": [
-        { "value": 0, "description": "Default" },
-        { "value": 1, "description": "Forward Slash" },
-        { "value": 2, "description": "Backslash" }
+        {
+          "value": 0,
+          "description": "Default"
+        },
+        {
+          "value": 1,
+          "description": "Forward Slash"
+        },
+        {
+          "value": 2,
+          "description": "Backslash"
+        }
       ],
       "default": 0
     },
