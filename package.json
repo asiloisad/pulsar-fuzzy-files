@@ -23,6 +23,11 @@
       "versions": {
         "^1.0.0": "consumeOpenExternalService"
       }
+    },
+    "windows-clip": {
+      "versions": {
+        "^1.0.0": "consumeWindowsClip"
+      }
     }
   },
   "providedServices": {

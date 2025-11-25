@@ -27,3 +27,5 @@
   'alt-q'       : 'fuzzy-files:query-item'
   'alt-s'       : 'fuzzy-files:query-selection'
   'f5'          : 'fuzzy-files:update'
+  'shift-x'     : 'fuzzy-files:cut-file'
+  'shift-c'     : 'fuzzy-files:copy-file'
