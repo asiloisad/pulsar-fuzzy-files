@@ -33,7 +33,7 @@
   "dependencies": {
     "glob": "^10.5.0",
     "minimatch": "^5.0.1",
-    "pulsar-select-list": "^1.0.0"
+    "pulsar-select-list": "^1.0.2"
   },
   "configSchema": {
     "ignoredNames": {
