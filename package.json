@@ -30,19 +30,10 @@
       }
     }
   },
-  "providedServices": {
-    "autocomplete.provider": {
-      "versions": {
-        "4.0.0": "getProvider"
-      }
-    }
-  },
   "dependencies": {
-    "atom-select-list": "^0.8.1",
-    "diacritic": "0.0.2",
-    "etch": "^0.14.1",
-    "glob": "^10.3.3",
-    "minimatch": "^5.0.1"
+    "glob": "^10.5.0",
+    "minimatch": "^5.0.1",
+    "pulsar-select-list": "^1.0.0"
   },
   "configSchema": {
     "ignoredNames": {
@@ -75,20 +66,6 @@
         }
       ],
       "default": 0
-    },
-    "autocompletePath": {
-      "order": 3,
-      "title": "Enable path autocomplete",
-      "description": "Enable autocomplete paths in the text editor. To call the hint type `///`.",
-      "type": "boolean",
-      "default": true
-    },
-    "showKeystrokes": {
-      "order": 4,
-      "title": "Enable keystroke hints",
-      "description": "Show info message with keystroke in lists.",
-      "type": "boolean",
-      "default": true
     }
   }
 }

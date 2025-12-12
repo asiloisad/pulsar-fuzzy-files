@@ -1,0 +1,10 @@
+- **Enter** — Open file
+- **Ctrl+Enter** — Open externally
+- **Alt+Enter** — Show in folder
+- **Alt+Left|Right|Up|Down** — Split pane
+- **Alt+C P|A|R|N** — Copy path
+- **Alt+V P|A|R|N** — Insert path *(P=project, A=absolute, R=relative, N=name)*
+- **Alt+D** — Move to trash
+- **Alt+Q** — Query from item
+- **Alt+S** — Query from selection
+- **Alt+0|/|\\** — Set path separator
