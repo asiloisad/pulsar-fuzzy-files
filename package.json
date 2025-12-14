@@ -28,6 +28,11 @@
       "versions": {
         "^1.0.0": "consumeWindowsClip"
       }
+    },
+    "claude-chat": {
+      "versions": {
+        "^1.0.0": "consumeClaudeChat"
+      }
     }
   },
   "dependencies": {

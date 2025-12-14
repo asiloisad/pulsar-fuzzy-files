@@ -26,6 +26,7 @@
   'alt-\\'      : 'select-list:backslash'
   'alt-q'       : 'select-list:query-item'
   'alt-s'       : 'select-list:query-selection'
+  'alt-f'       : 'select-list:claude-chat'
   'f5'          : 'select-list:update'
   'shift-x'     : 'select-list:cut-file'
   'shift-c'     : 'select-list:copy-file'
