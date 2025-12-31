@@ -6,7 +6,7 @@ Quickly find and open project files with fuzzy search. Designed as a replacement
 
 ## Features
 
-- **Fast fuzzy search**: Uses the `command-t` algorithm with smart scoring.
+- **Fast fuzzy search**: Uses algorithm with smart scoring.
 - **Line navigation**: Jump to specific line using `:` syntax (e.g., `file.js:42`).
 - **File icons**: Displays icons via [file-icons](https://github.com/file-icons/atom).
 - **Multiple projects**: Supports multiple project paths.
