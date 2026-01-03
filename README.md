@@ -30,7 +30,7 @@ Commands available in `atom-workspace`:
 Commands available in `.fuzzy-files`:
 
 - `select-list:open`: (`Enter`) open file,
-- `select-list:open-externally`: (`Alt+Enter`) open file externally,
+- `select-list:open-external`: (`Alt+Enter`) open file externally,
 - `select-list:show-in-folder`: (`Ctrl+Enter`) show in folder,
 - `select-list:trash`: (`Alt+Delete`) move file to trash,
 - `select-list:split-left/right/up/down`: (`Alt+Left/Right/Up/Down`) open in split pane,
