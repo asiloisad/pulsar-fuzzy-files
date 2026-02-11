@@ -6,7 +6,7 @@ Quickly find and open project files with fuzzy search. Designed as a replacement
 
 ## Features
 
-- **Fast fuzzy search**: Uses algorithm with smart scoring.
+- **Fast fuzzy search**: Uses algorithm with smart scoring. Results are ranked by match quality, adjusted by relative distance from the active editor file and directory depth — files closer to your current context appear higher.
 - **Line navigation**: Jump to specific line using `:` syntax (e.g., `file.js:42`).
 - **File icons**: Displays icons via [file-icons](https://github.com/file-icons/atom).
 - **Multiple projects**: Supports multiple project paths.
@@ -48,6 +48,35 @@ Commands available in `.fuzzy-files`:
 - `select-list:backslash`: (`Alt+\`) use backslash,
 - `select-list:query-item`: (`Alt+Q`) set query from selected item path,
 - `select-list:query-selection`: (`Alt+S`) set query from editor selection.
+
+## Services
+
+### Provided
+
+#### `fuzzy-files.score-modifier`
+
+Allows other packages to register functions that modify the score of search results. Consumer packages can use this to boost or penalize specific files in the ranking.
+
+```javascript
+// in package.json:
+// "consumedServices": {
+//   "fuzzy-files.score-modifier": { "versions": { "^1.0.0": "consumeScoreModifier" } }
+// }
+
+consumeScoreModifier(service) {
+  return service.add((score, item) => {
+    // item: { fPath, aPath, pPath, nPath, rPath, distance }
+    return score * multiplier;
+  });
+}
+```
+
+### Consumed
+
+- **[file-icons](https://github.com/file-icons/atom)** `atom.file-icons` — file type icons
+- **[open-external](https://web.pulsar-edit.dev/packages/open-external)** `open-external` — open files externally
+- **[claude-chat](https://web.pulsar-edit.dev/packages/claude-chat)** `claude-chat` — attach files to Claude chat
+- **[windows-clip](https://web.pulsar-edit.dev/packages/windows-clip)** `windows-clip` — clipboard operations (Windows)
 
 ## Contributing
 

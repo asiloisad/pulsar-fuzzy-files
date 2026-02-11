@@ -13,6 +13,13 @@
       "fuzzy-files:toggle"
     ]
   },
+  "providedServices": {
+    "fuzzy-files.score-modifier": {
+      "versions": {
+        "^1.0.0": "provideScoreModifier"
+      }
+    }
+  },
   "consumedServices": {
     "atom.file-icons": {
       "versions": {
