@@ -1,6 +1,6 @@
 # fuzzy-files
 
-Quickly find and open project files with fuzzy search. Designed as a replacement for `fuzzy-finder` with enhanced features, multiple actions, and package integrations.
+Quickly find and take an action over project files. Designed as a replacement for `fuzzy-finder` with fuzzy search, multiple actions, and package integrations.
 
 ![fuzzy-files](https://github.com/asiloisad/pulsar-fuzzy-files/raw/master/assets/fuzzy-files.png)
 
@@ -8,7 +8,6 @@ Quickly find and open project files with fuzzy search. Designed as a replacement
 
 - **Fast fuzzy search**: Uses algorithm with smart scoring. Results are ranked by match quality, adjusted by relative distance from the active editor file and directory depth — files closer to your current context appear higher.
 - **Line navigation**: Jump to specific line using `:` syntax (e.g., `file.js:42`).
-- **File icons**: Displays icons via [file-icons](https://github.com/file-icons/atom).
 - **Multiple projects**: Supports multiple project paths.
 - **Real-time updates**: Auto-refreshes on file create/delete/rename.
 - **[file-icons](https://github.com/file-icons/atom)**: Display file icons in the list.
