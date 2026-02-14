@@ -48,20 +48,25 @@ Commands available in `.fuzzy-files`:
 - `select-list:query-item`: (`Alt+Q`) set query from selected item path,
 - `select-list:query-selection`: (`Alt+S`) set query from editor selection.
 
-## Services
-
-### Provided
-
-#### `fuzzy-files.score-modifier`
+## Provided Service `fuzzy-files.score-modifier`
 
 Allows other packages to register functions that modify the score of search results. Consumer packages can use this to boost or penalize specific files in the ranking.
 
-```javascript
-// in package.json:
-// "consumedServices": {
-//   "fuzzy-files.score-modifier": { "versions": { "^1.0.0": "consumeScoreModifier" } }
-// }
+In your `package.json`:
 
+```json
+{
+  "consumedServices": {
+    "fuzzy-files.score-modifier": {
+      "versions": { "^1.0.0": "consumeScoreModifier" }
+    }
+  }
+}
+```
+
+In your main module:
+
+```javascript
 consumeScoreModifier(service) {
   return service.add((score, item) => {
     // item: { fPath, aPath, pPath, nPath, rPath, distance }
@@ -70,12 +75,21 @@ consumeScoreModifier(service) {
 }
 ```
 
-### Consumed
+## Consumed Service `atom.file-icons`
 
-- **[file-icons](https://github.com/file-icons/atom)** `atom.file-icons` — file type icons
-- **[open-external](https://web.pulsar-edit.dev/packages/open-external)** `open-external` — open files externally
-- **[claude-chat](https://web.pulsar-edit.dev/packages/claude-chat)** `claude-chat` — attach files to Claude chat
-- **[windows-clip](https://web.pulsar-edit.dev/packages/windows-clip)** `windows-clip` — clipboard operations (Windows)
+Displays file type icons next to entries in the file list. Provided by [file-icons](https://github.com/file-icons/atom).
+
+## Consumed Service `open-external`
+
+Opens files with external applications via `Alt+Enter`. Provided by [open-external](https://web.pulsar-edit.dev/packages/open-external).
+
+## Consumed Service `claude-chat`
+
+Attaches selected files to the Claude chat context via `Alt+F`. Provided by [claude-chat](https://web.pulsar-edit.dev/packages/claude-chat).
+
+## Consumed Service `windows-clip`
+
+Copy and cut files to the Windows clipboard via `Alt+W`. Provided by [windows-clip](https://web.pulsar-edit.dev/packages/windows-clip).
 
 ## Contributing
 
