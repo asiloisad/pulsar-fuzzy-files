@@ -1,8 +1,10 @@
 # fuzzy-files
 
-Quickly find and take an action over project files. Designed as a replacement for `fuzzy-finder` with fuzzy search, multiple actions, and package integrations.
+Quickly find and take an action over project files.
 
 ![fuzzy-files](https://github.com/asiloisad/pulsar-fuzzy-files/raw/master/assets/fuzzy-files.png)
+
+Fork of [fuzzy-finder](https://github.com/pulsar-edit/pulsar/tree/master/packages/fuzzy-finder).
 
 ## Features
 
@@ -18,6 +20,8 @@ Quickly find and take an action over project files. Designed as a replacement fo
 ## Installation
 
 To install `fuzzy-files` search for [fuzzy-files](https://web.pulsar-edit.dev/packages/fuzzy-files) in the Install pane of the Pulsar settings or run `ppm install fuzzy-files`. Alternatively, you can run `ppm install asiloisad/pulsar-fuzzy-files` to install a package directly from the GitHub repository.
+
+> **Note:** This package automatically disables the built-in `fuzzy-finder` package to avoid conflicts.
 
 ## Commands
 
