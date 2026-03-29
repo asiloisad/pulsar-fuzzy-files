@@ -8,7 +8,7 @@ Fork of [fuzzy-finder](https://github.com/pulsar-edit/pulsar/tree/master/package
 
 ## Features
 
-- **Fast fuzzy search**: Uses algorithm with smart scoring. Results are ranked by match quality, adjusted by relative distance from the active editor file and directory depth — files closer to your current context appear higher.
+- **Fast fuzzy search**: Uses algorithm with smart scoring. Results are ranked by match quality, adjusted by relative distance from the active editor file and directory depth. Files closer to your current context appear higher.
 - **Line navigation**: Jump to specific line using `:` syntax (e.g., `file.js:42`).
 - **Multiple projects**: Supports multiple project paths.
 - **Real-time updates**: Auto-refreshes on file create/delete/rename.
@@ -97,4 +97,4 @@ Copy and cut files to the Windows clipboard via `Alt+W`. Provided by [windows-cl
 
 ## Contributing
 
-Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback's welcome!
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub. Any feedback is welcome!
