@@ -25,6 +25,7 @@
   'alt-\\': 'select-list:backslash'
   'alt-q': 'select-list:query-item'
   'alt-s': 'select-list:query-selection'
+  'alt-t': 'select-list:reveal-in-tree-view'
   'alt-f': 'select-list:claude-chat'
   'f5': 'select-list:update'
 

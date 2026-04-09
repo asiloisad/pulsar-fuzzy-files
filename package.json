@@ -40,6 +40,11 @@
       "versions": {
         "1.0.0": "consumeClaudeChat"
       }
+    },
+    "tree-view-plus": {
+      "versions": {
+        "1.0.0": "consumeTreeViewPlus"
+      }
     }
   },
   "dependencies": {
