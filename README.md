@@ -12,11 +12,11 @@ Fork of [fuzzy-finder](https://github.com/pulsar-edit/pulsar/tree/master/package
 - **Line navigation**: Jump to specific line using `:` syntax (e.g., `file.js:42`).
 - **Multiple projects**: Supports multiple project paths.
 - **Real-time updates**: Auto-refreshes on file create/delete/rename.
-- **[file-icons](https://github.com/file-icons/atom)**: Display file icons in the list.
-- **[open-external](https://web.pulsar-edit.dev/packages/open-external)**: (<kbd>Alt+Enter</kbd>) Open files with external applications.
-- **[claude-chat](https://web.pulsar-edit.dev/packages/claude-chat)**: (<kbd>Alt+F</kbd>) Attach file to Claude chat context.
-- **[windows-clip](https://web.pulsar-edit.dev/packages/windows-clip)**: (<kbd>Alt+W Alt+C/X</kbd>) Copy/cut file to Windows clipboard (Windows only).
-- **[tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus)**: (<kbd>Alt+T</kbd>) Reveal selected file in tree view.
+- **File icons**: Display file icons in the list, via [file-icons](https://github.com/file-icons/atom).
+- **External opening**: Open files with external applications, via [open-external](https://web.pulsar-edit.dev/packages/open-external).
+- **Chat attachment**: Attach file to Claude chat context, via [claude-chat](https://web.pulsar-edit.dev/packages/claude-chat).
+- **Clipboard support**: Copy/cut file to Windows clipboard (Windows only), via [windows-clip](https://web.pulsar-edit.dev/packages/windows-clip).
+- **Tree view reveal**: Reveal selected file in tree view, via [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus).
 
 ## Installation
 
@@ -49,7 +49,7 @@ Commands available in `.fuzzy-files`:
 - `select-list:insert-n`: <kbd>Alt+V Alt+N</kbd> insert file name,
 - `select-list:default-slash`: <kbd>Alt+0</kbd> use default separator,
 - `select-list:forward-slash`: <kbd>Alt+/</kbd> use forward slash,
-- `select-list:backslash`: <kbd>Alt+\</kbd> use backslash,
+- `select-list:backslash`: <kbd>Alt+\\</kbd> use backslash,
 - `select-list:query-item`: <kbd>Alt+Q</kbd> set query from selected item path,
 - `select-list:query-selection`: <kbd>Alt+S</kbd> set query from editor selection,
 - `select-list:reveal-in-tree-view`: <kbd>Alt+T</kbd> reveal selected file in tree view (requires [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus)).
@@ -87,19 +87,19 @@ Displays file type icons next to entries in the file list. Provided by [file-ico
 
 ## Consumed Service `open-external`
 
-Opens files with external applications via <kbd>Alt+Enter</kbd>. Provided by [open-external](https://web.pulsar-edit.dev/packages/open-external).
+Opens files with external applications. Provided by [open-external](https://web.pulsar-edit.dev/packages/open-external).
 
 ## Consumed Service `claude-chat`
 
-Attaches selected files to the Claude chat context via <kbd>Alt+F</kbd>. Provided by [claude-chat](https://web.pulsar-edit.dev/packages/claude-chat).
+Attaches selected files to the Claude chat context. Provided by [claude-chat](https://web.pulsar-edit.dev/packages/claude-chat).
 
 ## Consumed Service `windows-clip`
 
-Copy and cut files to the Windows clipboard via <kbd>Alt+W</kbd>. Provided by [windows-clip](https://web.pulsar-edit.dev/packages/windows-clip).
+Copy and cut files to the Windows clipboard. Provided by [windows-clip](https://web.pulsar-edit.dev/packages/windows-clip).
 
 ## Consumed Service `tree-view-plus`
 
-Reveals the selected file in the tree view via <kbd>Alt+R</kbd>. Provided by [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus).
+Reveals the selected file in the tree view. Provided by [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus).
 
 ## Contributing
 
