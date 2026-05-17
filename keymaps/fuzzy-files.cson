@@ -28,7 +28,5 @@
   'alt-t': 'select-list:reveal-in-tree-view'
   'alt-f': 'select-list:claude-chat'
   'f5': 'select-list:update'
-
-'.platform-win32 .fuzzy-files atom-text-editor[mini]':
   'alt-w alt-x': 'select-list:cut-file'
   'alt-w alt-c': 'select-list:copy-file'

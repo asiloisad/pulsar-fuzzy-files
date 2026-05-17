@@ -52,7 +52,9 @@ Commands available in `.fuzzy-files`:
 - `select-list:backslash`: <kbd>Alt+\\</kbd> use backslash,
 - `select-list:query-item`: <kbd>Alt+Q</kbd> set query from selected item path,
 - `select-list:query-selection`: <kbd>Alt+S</kbd> set query from editor selection,
-- `select-list:reveal-in-tree-view`: <kbd>Alt+T</kbd> reveal selected file in tree view (requires [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus)).
+- `select-list:reveal-in-tree-view`: <kbd>Alt+T</kbd> reveal selected file in tree view (requires [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus)),
+- `select-list:cut-file`: <kbd>Alt+W Alt+X</kbd> cut selected file,
+- `select-list:copy-file`: <kbd>Alt+W Alt+C</kbd> copy selected file.
 
 ## Provided Service `fuzzy-files.score-modifier`
 
