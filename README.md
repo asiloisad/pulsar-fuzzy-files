@@ -13,10 +13,10 @@ Fork of [fuzzy-finder](https://github.com/pulsar-edit/pulsar/tree/master/package
 - **Multiple projects**: Supports multiple project paths.
 - **Real-time updates**: Auto-refreshes on file create/delete/rename.
 - **File icons**: Display file icons in the list, via [file-icons](https://github.com/file-icons/atom).
-- **External opening**: Open files with external applications, via [open-external](https://web.pulsar-edit.dev/packages/open-external).
-- **Chat attachment**: Attach file to Claude chat context, via [claude-chat](https://web.pulsar-edit.dev/packages/claude-chat).
-- **Clipboard support**: Copy/cut file to Windows clipboard (Windows only), via [windows-clip](https://web.pulsar-edit.dev/packages/windows-clip).
-- **Tree view reveal**: Reveal selected file in tree view, via [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus).
+- **External opening**: Open files with external applications, via [open-external](https://github.com/asiloisad/pulsar-open-external).
+- **Chat attachment**: Attach file to Claude chat context, via [claude-chat](https://github.com/asiloisad/pulsar-claude-chat).
+- **Clipboard support**: Copy/cut file to Windows clipboard (Windows only), via [windows-clip](https://github.com/asiloisad/pulsar-windows-clip).
+- **Tree view reveal**: Reveal selected file in tree view, via [tree-view-plus](https://github.com/asiloisad/pulsar-tree-view-plus).
 
 ## Installation
 
@@ -28,33 +28,33 @@ To install `fuzzy-files` search for [fuzzy-files](https://web.pulsar-edit.dev/pa
 
 Commands available in `atom-workspace`:
 
-- `fuzzy-files:toggle`: <kbd>Ctrl+P</kbd> toggle fuzzy files panel,
+- `fuzzy-files:toggle`: toggle fuzzy files panel,
 - `fuzzy-files:update`: refresh file cache.
 
 Commands available in `.fuzzy-files`:
 
-- `select-list:open`: <kbd>Enter</kbd> open file,
-- `select-list:open-external`: <kbd>Alt+Enter</kbd> open file externally,
-- `select-list:show-in-folder`: <kbd>Ctrl+Enter</kbd> show in folder,
-- `select-list:trash`: <kbd>Alt+Delete</kbd> move file to trash,
-- `select-list:split-left/right/up/down`: <kbd>Alt+Left/Right/Up/Down</kbd> open in split pane,
-- `select-list:update`: <kbd>F5</kbd> refresh file index,
-- `select-list:copy-r`: <kbd>Alt+C</kbd> copy relative path,
-- `select-list:copy-p`: <kbd>Alt+C Alt+P</kbd> copy project path,
-- `select-list:copy-a`: <kbd>Alt+C Alt+A</kbd> copy absolute path,
-- `select-list:copy-n`: <kbd>Alt+C Alt+N</kbd> copy file name,
-- `select-list:insert-r`: <kbd>Alt+V</kbd> insert relative path,
-- `select-list:insert-p`: <kbd>Alt+V Alt+P</kbd> insert project path,
-- `select-list:insert-a`: <kbd>Alt+V Alt+A</kbd> insert absolute path,
-- `select-list:insert-n`: <kbd>Alt+V Alt+N</kbd> insert file name,
-- `select-list:default-slash`: <kbd>Alt+0</kbd> use default separator,
-- `select-list:forward-slash`: <kbd>Alt+/</kbd> use forward slash,
-- `select-list:backslash`: <kbd>Alt+\\</kbd> use backslash,
-- `select-list:query-item`: <kbd>Alt+Q</kbd> set query from selected item path,
-- `select-list:query-selection`: <kbd>Alt+S</kbd> set query from editor selection,
-- `select-list:reveal-in-tree-view`: <kbd>Alt+T</kbd> reveal selected file in tree view (requires [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus)),
-- `select-list:cut-file`: <kbd>Alt+W Alt+X</kbd> cut selected file,
-- `select-list:copy-file`: <kbd>Alt+W Alt+C</kbd> copy selected file.
+- `select-list:open`: open file,
+- `select-list:open-external`: open file externally,
+- `select-list:show-in-folder`: show in folder,
+- `select-list:trash`: move file to trash,
+- `select-list:split-left/right/up/down`: open in split pane,
+- `select-list:update`: refresh file index,
+- `select-list:copy-r`: copy relative path,
+- `select-list:copy-p`: copy project path,
+- `select-list:copy-a`: copy absolute path,
+- `select-list:copy-n`: copy file name,
+- `select-list:insert-r`: insert relative path,
+- `select-list:insert-p`: insert project path,
+- `select-list:insert-a`: insert absolute path,
+- `select-list:insert-n`: insert file name,
+- `select-list:default-slash`: use default separator,
+- `select-list:forward-slash`: use forward slash,
+- `select-list:backslash`: use backslash,
+- `select-list:query-item`: set query from selected item path,
+- `select-list:query-selection`: set query from editor selection,
+- `select-list:reveal-in-tree-view`: reveal selected file in tree view (requires [tree-view-plus](https://github.com/asiloisad/pulsar-tree-view-plus)),
+- `select-list:cut-file`: cut selected file,
+- `select-list:copy-file`: copy selected file.
 
 ## Provided Service `fuzzy-files.score-modifier`
 
@@ -89,19 +89,19 @@ Displays file type icons next to entries in the file list. Provided by [file-ico
 
 ## Consumed Service `open-external`
 
-Opens files with external applications. Provided by [open-external](https://web.pulsar-edit.dev/packages/open-external).
+Opens files with external applications. Provided by [open-external](https://github.com/asiloisad/pulsar-open-external).
 
 ## Consumed Service `claude-chat`
 
-Attaches selected files to the Claude chat context. Provided by [claude-chat](https://web.pulsar-edit.dev/packages/claude-chat).
+Attaches selected files to the Claude chat context. Provided by [claude-chat](https://github.com/asiloisad/pulsar-claude-chat).
 
 ## Consumed Service `windows-clip`
 
-Copy and cut files to the Windows clipboard. Provided by [windows-clip](https://web.pulsar-edit.dev/packages/windows-clip).
+Copy and cut files to the Windows clipboard. Provided by [windows-clip](https://github.com/asiloisad/pulsar-windows-clip).
 
 ## Consumed Service `tree-view-plus`
 
-Reveals the selected file in the tree view. Provided by [tree-view-plus](https://web.pulsar-edit.dev/packages/tree-view-plus).
+Reveals the selected file in the tree view. Provided by [tree-view-plus](https://github.com/asiloisad/pulsar-tree-view-plus).
 
 ## Contributing
 
